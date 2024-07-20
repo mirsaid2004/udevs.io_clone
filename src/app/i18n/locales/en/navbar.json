@@ -1,0 +1,21 @@
+{
+  "direction": "Direction",
+  "contact": "Contact",
+  "command": "Command",
+  "services": "Services",
+  "services_1": "Development of mobile applications",
+  "services_2": "Development and implementation ERP systems",
+  "services_3": "User interface, User experience design",
+  "services_4": "IT consulting",
+  "services_5": "Optimization IT consulting infrastructure",
+  "tools": "Tools",
+  "clients": "Clients",
+  "portfolio": "Portfolio",
+  "portfolio_1": "Delever",
+  "portfolio_2": "Sms.uz",
+  "portfolio_3": "Goodzone",
+  "portfolio_4": "Iman",
+  "language": "Language",
+  "ru": "Рус",
+  "en": "Eng"
+}

@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { Trans } from "react-i18next/TransWithoutContext";
-import { languages } from "@/app/i18n/settings";
-import { useTranslation } from "@/app/i18n";
+import { languages } from "@/src/app/i18n/settings";
+import { useTranslation } from "@/src/app/i18n";
 
-export const Footer = async ({ lng }: { lng: supportedLangs }) => {
+const Footer = async ({ lng }: { lng: supportedLangs }) => {
   const { t } = await useTranslation(lng, "footer");
   return (
     <footer style={{ marginTop: 50 }}>
@@ -23,3 +23,5 @@ export const Footer = async ({ lng }: { lng: supportedLangs }) => {
     </footer>
   );
 };
+
+export default Footer;
