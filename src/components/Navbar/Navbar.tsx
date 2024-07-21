@@ -6,11 +6,13 @@ import NavItem from "./components/NavItem";
 import CustomButton from "../CustomButton";
 import ClientLink from "../ClientLink";
 import NavbarDrawer from "./components/NavbarDrawer";
+import { useTranslation } from "@/src/app/i18n";
 
 type NavbarType = {
   lng: supportedLangs;
 };
-export default function Navbar({ lng }: NavbarType) {
+export default async function Navbar({ lng }: NavbarType) {
+  const { t } = await useTranslation(lng, "navbar");
   return (
     <header className="fixed top-0 z-50 w-full shadow-gray-100 shadow-lg bg-white">
       <nav className=" m-auto max-w-[1170px] px-4 flex gap-5 justify-between items-center h-[72px]">
@@ -24,12 +26,12 @@ export default function Navbar({ lng }: NavbarType) {
               to={"contact"}
               className="h-full w-full flex justify-center items-center"
             >
-              Contact
+              {t("contact")}
             </ClientLink>
           </CustomButton>
         </ul>
         <div className="min-[950px]:hidden">
-          <NavbarDrawer />
+          <NavbarDrawer lng={lng} />
         </div>
       </nav>
     </header>

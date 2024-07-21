@@ -59,6 +59,15 @@ h6 {
   .bg-background {
     background-color: var(--background);
   }
+  .bg-template {
+    background-image: url("/assets/template.jfif");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+  }
+  .text-font-color {
+    color: var(--font-color);
+  }
 }
 
 .nav-dropdown {

@@ -24,7 +24,7 @@ export const navItems: navItem[] = [
     id: "services",
     children: {
       title: "services",
-      style: "min-w-80 left-[-200%]",
+      style: "min-w-80 left-[-150%]",
       list: [
         { id: "services_1", img: servicePhone },
         { id: "services_2", img: serviceErp },

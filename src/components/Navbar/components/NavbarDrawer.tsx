@@ -14,9 +14,9 @@ import { navItemsMobile } from "../assets/navItemslist";
 import CustomButton from "../../CustomButton";
 import Link from "next/link";
 
-export default function NavbarDrawer() {
+export default function NavbarDrawer({ lng }: { lng: supportedLangs }) {
   const [state, setState] = useState(false);
-  const { t } = useTranslation(undefined, "navbar");
+  const { t } = useTranslation(lng, "navbar");
   return (
     <>
       <IconButton onClick={() => setState(true)}>

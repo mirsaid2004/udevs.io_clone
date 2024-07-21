@@ -1,6 +1,5 @@
-import Link from "next/link";
 import { useTranslation } from "../i18n";
-import Footer from "@/src/components/Footer";
+import Hero from "@/src/components/Hero";
 
 export default async function Page({
   params: { lng },
@@ -10,7 +9,9 @@ export default async function Page({
   const { t } = await useTranslation(lng);
   return (
     <>
-      <div className="h-screen w-full"></div>
+      <div className="h-full w-full">
+        <Hero lng={lng} />
+      </div>
     </>
   );
 }
