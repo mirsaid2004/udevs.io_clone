@@ -33,6 +33,7 @@ export default function NavbarDrawer() {
           <div className="flex flex-col justify-between">
             {navItemsMobile.map((navItem) => (
               <ClientLink
+                key={navItem.id}
                 activeClass="active-scrollLink"
                 to={navItem.id}
                 className="py-3 text-3xl text-black text-center font-bold"

@@ -34,7 +34,7 @@ i18next
 
 export function useTranslation(
   lng?: string,
-  ns?: string,
+  ns?: string | string[],
   options?: UseTranslationOptions<undefined> | undefined
 ) {
   const [cookies, setCookie] = useCookies([cookieName]);
@@ -59,7 +59,7 @@ export function useTranslation(
     useEffect(() => {
       if (cookies.i18next === lng) return;
       setCookie(cookieName, lng, { path: "/" });
-    }, [lng, cookies.i18next]);
+    }, [lng, cookies.i18next, setCookie]);
   }
   return ret;
 }

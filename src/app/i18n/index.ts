@@ -20,10 +20,10 @@ const initI18next = async (lng: supportedLangs, ns?: string) => {
 
 export async function useTranslation(
   lng: supportedLangs,
-  ns?: string,
+  ns?: string | string[],
   options?: UseTranslationOptions<undefined> | undefined
 ) {
-  const i18nextInstance = await initI18next(lng, ns);
+  const i18nextInstance = await initI18next(lng, ns as unknown as string);
   return {
     t: i18nextInstance.getFixedT(
       lng,
