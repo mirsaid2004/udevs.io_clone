@@ -56,6 +56,9 @@ h6 {
   .text-primary {
     color: var(--primary);
   }
+  .text-secondary {
+    color: var(--secondary);
+  }
   .bg-background {
     background-color: var(--background);
   }

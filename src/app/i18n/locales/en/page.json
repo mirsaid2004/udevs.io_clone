@@ -6,5 +6,8 @@
   "our_services_3": "Development and implementation ERP systems",
   "our_services_4": "User interface, User experience design",
   "our_services_5": "Optimization IT consulting infrastructure",
-  "our_services_6": "IT consulting"
+  "our_services_6": "IT consulting",
+  "command_title": "Team",
+  "command_desc": "For each project, we form a team that includes a project manager, business analyst, UI / UX designer, DevOps, QA engineer, backend and front-end developers.",
+  "command_number": "Dedicated team"
 }

@@ -1,6 +1,7 @@
 import Direction from "@/src/components/Direction";
 import { useTranslation } from "../i18n";
 import Hero from "@/src/components/Hero";
+import Command from "@/src/components/Command";
 
 export default async function Page({
   params: { lng },
@@ -13,6 +14,7 @@ export default async function Page({
       <div className="h-full w-full">
         <Hero lng={lng} />
         <Direction lng={lng} />
+        <Command lng={lng} />
       </div>
     </>
   );
