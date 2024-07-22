@@ -59,8 +59,14 @@ h6 {
   .text-secondary {
     color: var(--secondary);
   }
+  .text-dark {
+    color: var(--dark);
+  }
   .bg-background {
     background-color: var(--background);
+  }
+  .bg-secondary {
+    background-color: var(--bg-secondary);
   }
   .bg-template {
     background-image: url("/assets/template.jfif");

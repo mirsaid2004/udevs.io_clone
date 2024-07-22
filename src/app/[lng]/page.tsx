@@ -2,6 +2,7 @@ import Direction from "@/src/components/Direction";
 import { useTranslation } from "../i18n";
 import Hero from "@/src/components/Hero";
 import Command from "@/src/components/Command";
+import Services from "@/src/components/Services";
 
 export default async function Page({
   params: { lng },
@@ -15,6 +16,7 @@ export default async function Page({
         <Hero lng={lng} />
         <Direction lng={lng} />
         <Command lng={lng} />
+        <Services lng={lng} />
       </div>
     </>
   );

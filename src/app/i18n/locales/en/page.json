@@ -9,5 +9,16 @@
   "our_services_6": "IT consulting",
   "command_title": "Team",
   "command_desc": "For each project, we form a team that includes a project manager, business analyst, UI / UX designer, DevOps, QA engineer, backend and front-end developers.",
-  "command_number": "Dedicated team"
+  "command_number": "Dedicated team",
+  "technologies": "Technologies",
+  "services_title_1": "Development of mobile applications",
+  "services_desc_1": "In collaboration with startups, we have learned how to create a creative and functional user interface for mobile applications.",
+  "services_title_2": "ERP systems",
+  "services_desc_2": "IT Systems of any level of complexity at a convenient time for you",
+  "services_title_3": "UI / UX design",
+  "services_desc_3": "Our company takes a human-centered approach to design",
+  "services_title_4": "Optimization Infrastructure",
+  "services_desc_4": "Our experienced professionals will help you optimize your infrastructure",
+  "services_title_5": "IT consulting",
+  "services_desc_5": "We can improve the qualifications of your employees thereby increasing the efficiency of your company"
 }
