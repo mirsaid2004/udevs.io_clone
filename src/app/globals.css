@@ -68,6 +68,27 @@ h6 {
   .bg-secondary {
     background-color: var(--bg-secondary);
   }
+  .bg-frontend {
+    background-color: var(--frontend);
+  }
+  .bg-backend {
+    background-color: var(--backend);
+  }
+  .bg-devops {
+    background-color: var(--devops);
+  }
+  .bg-testing {
+    background-color: var(--testing);
+  }
+  .bg-design {
+    background-color: var(--design);
+  }
+  .bg-infrastructure {
+    background-color: var(--infrastructure);
+  }
+  .bg-mobile {
+    background-color: var(--mobile);
+  }
   .bg-template {
     background-image: url("/assets/template.jfif");
     background-repeat: no-repeat;
