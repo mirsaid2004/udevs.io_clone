@@ -14,12 +14,12 @@ export default function InstrumentsList({ value }: InstrumentsListType) {
         <div
           key={tool.name}
           className={clsx(
-            "rounded-lg flex flex-col items-center justify-center min-[950px]:h-24 h-14 transition-all ease-in-out duration-200",
+            "rounded-lg flex flex-col items-center justify-center min-[950px]:h-24 h-14 transition-all ease-in-out duration-500",
             value && value === tool.direction
               ? tool.className
               : !value
               ? tool.className
-              : " opacity-40"
+              : "opacity-40"
           )}
         >
           <Image

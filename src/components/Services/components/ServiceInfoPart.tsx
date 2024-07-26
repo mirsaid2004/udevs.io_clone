@@ -22,11 +22,11 @@ export default async function ServiceInfoPart({
       <div className="grid grid-cols-3 min-[950px]:gap-4 gap-2 my-10">
         {service?.directions?.map((direction) => (
           <div
+            key={direction.title}
             className={clsx(
               "bg-background min-[950px]:p-3 min-[950px]:pr-5 p-2 rounded-lg",
               service.direction === "ltr" ? "bg-background" : "bg-secondary"
             )}
-            key={direction.title}
           >
             <Image
               src={direction.img}
@@ -44,7 +44,7 @@ export default async function ServiceInfoPart({
           <h3 className="mb-8 text-3xl font-extrabold">{t("technologies")}</h3>
           <div className="flex flex-wrap gap-4 min-[950px]:gap-12">
             {service.technologies.map((technology) => (
-              <div>
+              <div key={technology.title}>
                 <Image
                   src={technology.img}
                   alt={technology.title}
